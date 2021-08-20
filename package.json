@@ -1,0 +1,34 @@
+{
+  "name": "bilal",
+  "version": "0.1.0",
+  "description": "Daily Palestine prayers time, right in your console, at the tip of your fingers",
+  "homepage": "https://github.com/shaweesh/bilal",
+  "main": "index.js",
+  "bin": {
+    "bilil": "index.js"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index"
+  },
+  "keywords": [
+    "prayers",
+    "palestine",
+    "prayers time",
+    "salat",
+    "bilal",
+    "salah"
+  ],
+  "author": {
+    "name": "Majd Shawish",
+    "email": "geekspalestine@gmail.com"
+  },
+  "license": "MIT"
+}
