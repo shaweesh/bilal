@@ -5,7 +5,7 @@
   "homepage": "https://github.com/shaweesh/bilal",
   "main": "index.js",
   "bin": {
-    "bilil": "index.js"
+    "bilal": "index.js"
   },
   "dependencies": {
     "chalk": "^2.4.2",
