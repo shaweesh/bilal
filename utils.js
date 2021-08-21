@@ -27,7 +27,8 @@ const getData=()=>{
 
 module.exports.getSalah = (daySaveTime) => {
   let _ = getData();
-  if(daySaveTime == 1) {
+  console.log(daySaveTime);
+  if(daySaveTime == 'true') {
     PrayerTime = {
         fajer: moment(`${_.fajer}`, 'hh:mm').add(1,'h').format("hh:mm"),
         sunrise: moment(`${_.sunrise}`, 'hh:mm').add(1,'h').format("hh:mm"),

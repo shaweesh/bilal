@@ -14,5 +14,6 @@ _______ ___ ___     _______ ___
   `;
 
 module.exports = {
-  BANNER
+  BANNER,
+  LOCAL_STORAGE_PATH: "./storage"
 };

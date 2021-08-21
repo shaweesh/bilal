@@ -12,7 +12,11 @@ $ npm i -g bilal
 
 $ bilal
 
-# Run with Daylight saving time
+# Set with Daylight saving time
 
-$ bilal 1
+$ bilal -d true
+
+# Set without Daylight saving time
+
+$ bilal -d false
 ```
